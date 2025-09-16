@@ -1,7 +1,7 @@
 body {
     color: white;
     background: #352c17bd;
-    margin: 1px ;
+    margin: 1px;
     font-family: "Antic Slab", serif;
     font-weight: bold;
     margin-bottom: 100px;
@@ -9,24 +9,24 @@ body {
 
 header {
     background: url('img/ChatGPT\ Image\ 16\ de\ set.\ de\ 2025\,\ 11_56_53\ \(1\).png');
-    border-bottom: solid 3px #ca9c11 ;
+    border-bottom: solid 3px #ca9c11;
     padding: 90px;
     font-size: 25px;
     color: white;
 }
 
 
-p{
+p {
     font-size: 20px;
 }
 
 
 
 footer {
-    background-color: #111;  
-    color: #fff;            
-    text-align: center;     
-    padding: 10px;          
-    margin-top:10px;       
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
     font-size: 9px;
 }
