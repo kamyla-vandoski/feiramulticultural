@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #e1850d;
+    background: url('img/image.png');
     border-bottom: solid 3px #ca9c11 ;
     padding: 90px;
     font-size: 25px;
