@@ -2,24 +2,18 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HistóriaFlix</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>CULTURA AFRICANA</h1>
-    </header>
+    <header>CULTURA AFRICANA</header>
 
     <main class="container mt-5">
         <h2>Nossos Projetos</h2>
@@ -27,11 +21,14 @@
             <!-- Projeto 1 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/image.png" class="card-img-top" alt="imagem do Jogo do Pong">
+                    <img src="img/image.png" class="card-img-top" alt="imagem do projeto do Pong">
                     <div class="card-body">
                         <h5 class="card-title">Jogo do Pong: JavaScript</h5>
-                        <p class="card-text">Este projeto retrata o jogo Pong, do Atari, considerado por muitos como o primeiro jogo digital criado.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o Projeto</button>
+                        <p class="card-text">Este projeto retrata o jogo Pong, do Atari, que muitos consideram o primeiro jogo criado.</p>
+                        <a href="https://editor.p5js.org/renan.barth/sketches/AaSD-MPfP" 
+                           class="btn btn-link" target="_blank">
+                           Veja o Projeto
+                        </a>
                     </div>
                 </div>
             </div>
@@ -39,11 +36,14 @@
             <!-- Projeto 2 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/image.png" class="card-img-top" alt="imagem do Jogo da Bolinha que Pinta">
+                    <img src="img/image.png" class="card-img-top" alt="imagem do projeto da bolinha">
                     <div class="card-body">
-                        <h5 class="card-title">Jogo da Bolinha que Pinta: JavaScript</h5>
-                        <p class="card-text">Um projeto básico em que as bolinhas mudam de cor quando você clica e segura na tela.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o Projeto</button>
+                        <h5 class="card-title">Jogo da bolinha que pinta: JavaScript</h5>
+                        <p class="card-text">Esse projeto básico permite clicar na tela e trocar a cor das bolinhas em movimento.</p>
+                        <a href="https://editor.p5js.org/renan.barth/sketches/9hmZJHaDX" 
+                           class="btn btn-link" target="_blank">
+                           Veja o Projeto
+                        </a>
                     </div>
                 </div>
             </div>
@@ -51,100 +51,28 @@
             <!-- Projeto 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/image.png" class="card-img-top" alt="imagem do Jogo do Troco">
+                    <img src="img/image.png" class="card-img-top" alt="imagem do projeto do Troco">
                     <div class="card-body">
                         <h5 class="card-title">Jogo do Troco: Scratch</h5>
-                        <p class="card-text">Projeto simples para aprender a calcular o troco correto em compras.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o Projeto</button>
+                        <p class="card-text">Projeto simples para aprender a calcular o troco corretamente.</p>
+                        <a href="https://scratch.mit.edu/projects/921313547/" 
+                           class="btn btn-link" target="_blank">
+                           Veja o Projeto
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Modal1 -->
-<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title w-100 text-center" id="modal1Label">Jogo do Pong: JavaScript</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-      <div class="modal-body text-justify">
-        <p>Este projeto retrata o jogo Pong, do Atari, considerado por muitos como o primeiro jogo digital criado.</p>
-        <img src="img/image.png" class="img-fluid rounded shadow-sm mt-3" alt="imagem representativa do Jogo do Pong">
-      </div>
-      <div class="modal-footer justify-content-center">
-        <a href="https://editor.p5js.org/renan.barth/sketches/AaSD-MPfP" target="_blank" class="btn btn-primary">
-          <i class="bi bi-globe"></i> Ver projeto ao vivo
-        </a>
-        <a href="https://editor.p5js.org/renan.barth/sketches/AaSD-MPfP" target="_blank" class="btn btn-dark">
-          <i class="bi bi-code-slash"></i> Ver código do projeto
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal2 -->
-<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title w-100 text-center" id="modal2Label">Jogo da Bolinha que Pinta: JavaScript</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-      <div class="modal-body text-justify">
-        <p>Um projeto básico em que as bolinhas mudam de cor quando você clica e segura na tela.</p>
-        <img src="img/projeto-2.png" class="img-fluid rounded shadow-sm mt-3" alt="imagem representativa do Jogo da Bolinha que Pinta">
-      </div>
-      <div class="modal-footer justify-content-center">
-        <a href="https://editor.p5js.org/renan.barth/sketches/9hmZJHaDX" target="_blank" class="btn btn-primary">
-          <i class="bi bi-globe"></i> Ver projeto ao vivo
-        </a>
-        <a href="https://editor.p5js.org/renan.barth/sketches/9hmZJHaDX" target="_blank" class="btn btn-dark">
-          <i class="bi bi-code-slash"></i> Ver código do projeto
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal3 -->
-<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title w-100 text-center" id="modal3Label">Jogo do Troco: Scratch</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-      </div>
-      <div class="modal-body text-justify">
-        <p>Projeto simples para aprender a calcular o troco correto em compras.</p>
-        <img src="img/projeto-3.png" class="img-fluid rounded shadow-sm mt-3" alt="imagem representativa do Jogo do Troco">
-      </div>
-      <div class="modal-footer justify-content-center">
-        <a href="https://scratch.mit.edu/projects/921313547/" target="_blank" class="btn btn-primary">
-          <i class="bi bi-globe"></i> Ver projeto ao vivo
-        </a>
-        <a href="https://scratch.mit.edu/projects/921313547/editor/" target="_blank" class="btn btn-dark">
-          <i class="bi bi-code-slash"></i> Ver código do projeto
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    <footer>
+    <footer class="container py-5">
         <h2>Entre em contato</h2>
         <div>
-            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-github"></i>
             <a href="https://github.com/RenanBarth">GitHub</a>
         </div>
         <p class="my-5">© Copyright 2025. Produzido por Renan Barth e Maria Juliane Bueno.</p>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
