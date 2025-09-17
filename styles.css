@@ -3,7 +3,7 @@
 body {
     color: white;
     background: url('img/image\ copy.png');
-    background-attachment: fixed;
+    background-size: auto;
     margin: 1px;
     font-family: "Antic Slab", serif;
     font-weight: bold;
