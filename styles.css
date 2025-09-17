@@ -62,18 +62,11 @@ a:hover,
 /* Cards e modais */
 .card {
     background-color: var(--cor-fundo-escuro);
-    color: var(--cor-texto);
     border: 2px solid var(--cor-principal);
     border-radius: 10px;
     overflow: hidden;
 }
 
-.modal-content {
-    background-color: var(--cor-fundo-escuro);
-    color: var(--cor-texto);
-    border: 2px solid var(--cor-principal);
-    border-radius: 12px;
-}
 
 /* Footer */
 footer {
