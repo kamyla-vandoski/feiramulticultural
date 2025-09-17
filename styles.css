@@ -37,7 +37,7 @@ p {
 }
 
 h1, h2, h5 {
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
     font-weight: 700;
 }
 
