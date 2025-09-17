@@ -12,6 +12,7 @@ body {
 
 header {
     background: url('img/ChatGPT\ Image\ 16\ de\ set.\ de\ 2025\,\ 11_56_53\ \(1\)\ \(1\).png');
+    background-size: auto;
     border-bottom: solid 3px #e46809;
     padding: 90px;
     font-size: 25px;
