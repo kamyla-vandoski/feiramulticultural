@@ -21,7 +21,7 @@ body {
 header {
     background: url('img/header-bg.png') no-repeat center center;
     background-size: cover;
-    height: 60px;
+    height: 80px;
     border-bottom: solid 4px var(--cor-principal);
     padding: 90px;
     font-size: 28px;
