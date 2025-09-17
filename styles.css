@@ -75,7 +75,8 @@ a:hover,
 
 /* Footer */
 footer {
-    background-color: var(--cor-fundo-escuro);
+    background:url('img/footer.jpg');
+    background-size: cover;
     color: var(--cor-texto);
     text-align: center;
     padding: 20px;
