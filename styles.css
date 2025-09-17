@@ -25,7 +25,7 @@ header {
     border-bottom: solid 4px var(--cor-principal);
     padding: 90px;
     font-size: 28px;
-    color: var(--cor-secundaria);
+    color: var( --cor-destaque);
     text-align: left;
 }
 
