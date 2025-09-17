@@ -1,27 +1,37 @@
-
+/* Definição de paleta de cores */
+:root {
+    --cor-principal: #e07a5f;    /* Laranja-terra */
+    --cor-secundaria: #f2cc8f;  /* Dourado */
+    --cor-destaque: #81b29a;    /* Verde-musgo */
+    --cor-fundo-escuro: #3d405b; /* Azul-acinzentado escuro */
+    --cor-texto: #ffffff;       /* Texto claro */
+}
 
 body {
-    color: white;
-    background: url('img/image\ copy.png');
-    background-size: fixed;
-    margin: 1px;
+    color: var(--cor-texto);
+    background: url('img/body-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
     font-family: "Antic Slab", serif;
     font-weight: bold;
     margin-bottom: 100px;
 }
 
+/* Cabeçalho */
 header {
-    background: url('img/ChatGPT\ Image\ 16\ de\ set.\ de\ 2025\,\ 11_56_53\ \(1\)\ \(1\).png');
-    background-size: auto;
-    border-bottom: solid 3px #e46809;
+    background: url('img/header-bg.png') no-repeat center center;
+    background-size: cover;
+    border-bottom: solid 4px var(--cor-principal);
     padding: 90px;
-    font-size: 25px;
-    color: white;
+    font-size: 28px;
+    color: var(--cor-secundaria);
+    text-align: center;
 }
 
-
+/* Tipografia */
 p {
     font-size: 20px;
+    line-height: 1.6;
 }
 
 h1, h2, h5 {
@@ -32,24 +42,44 @@ h1, h2, h5 {
 .lead, .btn-link {
     color: var(--cor-destaque);
     font-weight: 700;
+    text-decoration: none;
 }
 
-a, .btn-link:hover {
-    color: var(--cor-principal)
+/* Links */
+a {
+    color: var(--cor-principal);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-a:hover{
-    color: var(--cor-destaque);
+a:hover,
+.btn-link:hover {
+    color: var(--cor-secundaria);
 }
 
+/* Cards e modais */
+.card {
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.modal-content {
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-principal);
+    border-radius: 12px;
+}
 
+/* Footer */
 footer {
-    background-color: #111;
-    color: #fff;
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: 9px;
+    font-size: 14px;
+    border-top: 2px solid var(--cor-principal);
 }
