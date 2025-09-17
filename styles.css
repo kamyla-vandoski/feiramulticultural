@@ -84,15 +84,16 @@ a:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* 🦶 Footer */
+/* 🦶 Footer compacto */
 footer {
     background: url('img/footer.jpg') no-repeat center center;
     background-size: cover;
     color: var(--cor-texto);
     text-align: center;
-    padding: 20px;
-    margin-top: 100px;
-    font-size: 14px;
+    padding: 10px 15px;     /* menor padding vertical e horizontal */
+    margin-top: 50px;       /* menor distância do conteúdo acima */
+    font-size: 12px;        /* texto ligeiramente menor */
     border-top: 2px solid var(--cor-principal);
     backdrop-filter: brightness(0.8);
 }
+
