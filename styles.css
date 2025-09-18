@@ -92,6 +92,23 @@ a:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+#galeria {
+    background-color: #FAF4F4;
+
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none
+
+
 /* 🦶 Footer minimalista */
 footer {
     background: url('img/footer.jpg') no-repeat center center;
