@@ -45,11 +45,9 @@ p {
    color: var(--cor-texto);
 }
 
-h1 {
-    color: white;
-    font-weight: 700;
+.clearfix {
+    text-align: justify;
 }
-
 
 h2 {
     color: white;
@@ -98,6 +96,8 @@ a:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
+
+#cl
 
 #galeria {
     font-family: "Macondo", cursive;
