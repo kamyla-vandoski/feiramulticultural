@@ -106,8 +106,8 @@ a:hover {
     background-color: var(--alto-contraste-fundo);
 }
 .alto-contraste .fundo-galeria {
-    background: none
-
+    background: none;
+}
 
 /* 🦶 Footer minimalista */
 footer {
