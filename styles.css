@@ -85,7 +85,7 @@ a:hover {
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .card:hover {
