@@ -45,9 +45,7 @@ p {
    color: var(--cor-texto);
 }
 
-.clearfix {
-    text-align: justify;
-}
+
 
 h2 {
     color: white;
