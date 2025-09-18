@@ -107,6 +107,7 @@ a:hover {
 .fundo-galeria img {
     height: 250px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 
