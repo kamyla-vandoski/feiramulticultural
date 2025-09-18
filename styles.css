@@ -21,15 +21,17 @@ body {
 
 /* 📌 Cabeçalho */
 header {
-    background: url('img/header-bg.png') no-repeat center center;
-    background-size: cover;
-    min-height: 80px;
-    border-bottom: solid 4px var(--cor-principal);
-    padding: 90px;
-    font-size: 28px;
-    font-family: "Macondo", cursive;
-    color: var(--cor-destaque);
-    text-align: left;
+  background: url('img/header-bg.png') no-repeat center center;
+  background-size: cover;
+  min-height: 80px;
+  border-bottom: solid 4px var(--cor-principal);
+  padding: 20px 50px;
+
+  display: flex;                /* flexbox para alinhamento */
+  align-items: center;          /* centraliza verticalmente */
+  justify-content: space-between; /* h1 à esquerda, nav à direita */
+  font-family: "Macondo", cursive;
+  color: var(--cor-destaque);
 }
 
 /* ✍️ Tipografia */
@@ -37,6 +39,7 @@ p1 {
     font-size: 20px;
     line-height: 1.6;
     color: #fdfdfd;
+    text-align: justify;
 }
 
 p {
@@ -45,6 +48,13 @@ p {
    color: var(--cor-texto);
 }
 
+.clearfix {
+    text-align: justify;
+}
+
+h1{
+    text-align: left;
+}
 
 
 h2 {
@@ -134,4 +144,13 @@ footer {
     font-size: 18px;
     border-top: 2px solid var(--cor-principal);
     backdrop-filter: brightness(0.8);
+}
+
+footer a {
+  color: var(--cor-secundaria);
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--cor-principal);
 }
