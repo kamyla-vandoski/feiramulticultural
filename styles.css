@@ -93,14 +93,16 @@ a:hover {
 }
 
 #galeria {
+    margin-top: 20px;
     background:url('img/footer.jpg');
+    background-size: cover;
+
 
 }
 
 .fundo-galeria {
     margin-top: 20px;
     background: url('img/footer.jpg') bottom right no-repeat;
-        background-size: cover;
 
 }
 
