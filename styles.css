@@ -94,6 +94,7 @@ a:hover {
 }
 
 #galeria {
+    font-family: "Macondo", cursive;
     margin-top: 20px;
     background:url('img/footer.jpg');
     background-size: cover;
