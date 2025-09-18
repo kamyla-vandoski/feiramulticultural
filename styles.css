@@ -108,7 +108,9 @@ a:hover {
 }
 .fundo-galeria img {
     height: 250px;
-    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
