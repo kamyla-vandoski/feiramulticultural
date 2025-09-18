@@ -95,7 +95,7 @@ a:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-.galeria {
+#galeria {
     font-family: "Macondo", cursive;
     margin-top: 20px;
     background:url('img/footer.jpg');
