@@ -27,7 +27,7 @@ header {
     border-bottom: solid 4px var(--cor-principal);
     padding: 90px;
     font-size: 28px;
-      font-family: "Libre Baskerville", serif;
+    font-family: "Macondo", cursive;
     color: var(--cor-destaque);
     text-align: left;
 }
