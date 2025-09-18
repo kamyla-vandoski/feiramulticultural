@@ -45,6 +45,12 @@ p {
    color: var(--cor-texto);
 }
 
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+
 h2 {
     color: white;
     font-weight: 700;
@@ -131,5 +137,3 @@ footer {
     border-top: 2px solid var(--cor-principal);
     backdrop-filter: brightness(0.8);
 }
-
-
