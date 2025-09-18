@@ -123,7 +123,7 @@ footer {
     padding: 8px 10px;       /* footer ainda mais baixo */
     margin-top: 100px;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 18px;
     border-top: 2px solid var(--cor-principal);
     backdrop-filter: brightness(0.8);
 }
