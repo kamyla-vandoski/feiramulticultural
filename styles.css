@@ -99,6 +99,8 @@ a:hover {
 
 .fundo-galeria {
     background: url('img/footer.jpg') bottom right no-repeat;
+        background-size: cover;
+
 }
 
 .alto-contraste #galeria {
