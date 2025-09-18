@@ -4,7 +4,7 @@
     --cor-secundaria: #f2cc8f;    /* Dourado */
     --cor-destaque: #81b29a;      /* Verde-musgo */
     --cor-fundo-escuro: #3d405b;  /* Azul-acinzentado escuro */
-    --cor-texto: #fffbfb;         /* Texto claro */
+    --cor-texto: #000000;         /* Texto claro */
 }
 
 /* 🌍 Estrutura geral */
@@ -40,7 +40,7 @@ p1 {
 p {
     font-size: 20px;
     line-height: 1.6;
-    color: #fdfdfd;
+   color: var(--cor-texto);
 }
 
 h2 {
