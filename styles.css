@@ -5,6 +5,7 @@
     --cor-destaque: #81b29a;      /* Verde-musgo */
     --cor-fundo-escuro: #3d405b;  /* Azul-acinzentado escuro */
     --cor-texto: #000000;         /* Texto claro */
+    --cor-texto1:#f7f1f1; 
 }
 
 /* 🌍 Estrutura geral */
@@ -94,7 +95,7 @@ a:hover {
 footer {
     background: url('img/footer.jpg') no-repeat center center;
     background-size: cover;
-    color: var(--cor-texto);
+    color: var(--cor-texto1);
     text-align: center;
     padding: 8px 10px;       /* footer ainda mais baixo */
     margin-top: 50px;
