@@ -102,6 +102,9 @@ a:hover {
 
 
 }
+.galeria img {
+    height: 250px;
+}
 
 
 .alto-contraste #galeria {
