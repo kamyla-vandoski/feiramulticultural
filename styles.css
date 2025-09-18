@@ -96,15 +96,11 @@ a:hover {
     margin-top: 20px;
     background:url('img/footer.jpg');
     background-size: cover;
+    color: #f5f5f5;
 
 
 }
 
-.fundo-galeria {
-    margin-top: 20px;
-    background: url('img/footer.jpg') bottom right no-repeat;
-
-}
 
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
