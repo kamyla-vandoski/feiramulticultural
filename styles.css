@@ -116,7 +116,8 @@ footer {
     color: var(--cor-texto1);
     text-align: center;
     padding: 8px 10px;       /* footer ainda mais baixo */
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
     font-size: 12px;
     border-top: 2px solid var(--cor-principal);
     backdrop-filter: brightness(0.8);
