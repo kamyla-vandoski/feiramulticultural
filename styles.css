@@ -154,3 +154,8 @@ footer a {
 footer a:hover {
   color: var(--cor-principal);
 }
+
+.texto {
+    color: white;
+    background-color: #000000;
+}
